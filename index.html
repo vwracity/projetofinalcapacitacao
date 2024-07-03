@@ -8,17 +8,76 @@
 </head>
 <body>
     <header>
-        <h1 id="h1Nav">Campos do Jordão</h1>
+        <h1 id="header">Campos do <span class="corzinha">Jordão</span></h1>
         
         <nav>
             <a href="#historia">História</a>
             <a href="#passeios">Passeios</a>
-            <a href="#tempo">Tempo</a>
-            <a href="#contato">Contato</a>
+            <a class="corzinha" href="#tempo">Tempo</a>
+            <a class="corzinha" href="#contato">Contato</a>
         </nav>
     </header>
 
     <main>
+        <section id="home">
+            <div class="slider">
+                <div class="slides">
+                    <!-- Botoes radio -->
+                   
+                    <input type="radio" name="radio-btn" id="radio1">
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <input type="radio" name="radio-btn" id="radio3">
+                    
+                   
+                    <!-- FIm botoes radio -->
+                   
+                    <!-- Imagem -->
+                    
+                    <div class="slide first">
+                        <img src="./assets/img/assets.jpg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="https://www.embarcando.com/wp-content/uploads/2018/07/IMG_20180330_122013218_HDR.jpg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="https://blog.123milhas.com/wp-content/uploads/2021/11/banner-3-1.jpg" alt="">
+                    </div>
+                    
+                    
+                    <!-- fim das imagens -->
+
+                    <div class="navigation-auto">
+                        <div class="auto-btn1">
+
+                        </div>
+                        <div class="auto-btn2">
+
+                        </div>
+                        <div class="auto-btn3">
+                        
+                        </div>
+                    </div>
+
+                    
+                
+                
+                </div>
+                
+                <div class="manual-navigation">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                    
+                </div>
+
+            </div>
+            <div>
+                
+                <a href="#Passeios" class="btn">Venha fazer um tour</a>
+
+            </div>
+        </section>
+       
         <section>
             <div class="card">
                 <div class="cardIMG">
@@ -27,7 +86,10 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, deleniti.</p>
                 <button>Reserve agora</button>
             </div>
+        </section>
 
+       
+        <section>
             <div class="card">
                 <div class="cardIMG">
                     <img src="" alt="">
@@ -51,10 +113,9 @@
                 <p>Descrição</p>
                 <button>Reserve agora</button>
             </div>
-
-            
+   
+        
         </section>
-
     </main>
 </body>
 </html>
