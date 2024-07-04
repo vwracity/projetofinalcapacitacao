@@ -185,4 +185,58 @@ header nav a{
     border-radius: 10px;
 }
 
+/*Historia*/
+
+#historia{
+    height: 800px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+
+}
+
+#divHistoriaImagens{
+    background-color: black;
+    width: 600px;
+    height: 600px;
+
+}
+
+#divHistoriaTexto{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 400px;
+}
+
+#imagensHistoria{
+    height: 100%;
+    width: 100%;
+}
+
+#divHistoriaTexto h1{
+    color: var(--color-primary);
+    text-align: center;
+    font-size: 40px
+}
+
+#divHistoriaTexto p{
+    color: var(--color-secondary);
+    font-size: 25px;
+    height: 300px;
+    text-align: justify;
+    justify-content: center;
+    line-height: 45px;
+
+}
+
+#divHistoriaImagens div{
+    background-color: green;
+    width: 250px;
+    height: 160px;
+}
+
+
 
