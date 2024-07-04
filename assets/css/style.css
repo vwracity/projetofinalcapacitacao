@@ -6,6 +6,7 @@
     --color-primary: #684B26;
     --color-secondary: #CD863B;
     --color-white: #ffff;
+    --color-historia:#cd863b98;
 
     font-family: "Noto Serif Display" , Helvetica, sans-serif ;
     font-size: 14px;
@@ -68,6 +69,9 @@ header nav a{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
+
+
 }
 
 /* Carrosel/slider */
@@ -77,7 +81,7 @@ header nav a{
     height: 100%;
     overflow: hidden;
 
-    margin-bottom: 0px;
+    
     
 }
 
@@ -133,7 +137,8 @@ header nav a{
 /* Botao "venha fazer um tour */
 
 .btn{
-    margin: 0;
+    position: relative;
+    top: 4px;
 
     background-color: var(--color-secondary);
     text-decoration: none;
@@ -198,7 +203,21 @@ header nav a{
 }
 
 
+/* Historia */
 
+#historia{
+    background-color: var(--color-historia);
+    height: 1600px;
+    margin-top: 63px;
+
+    display: flex;
+    justify-content: center;
+}
+
+#historia > div > h1{
+    font-size: 50px;
+
+}
 
 
 
