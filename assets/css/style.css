@@ -205,55 +205,75 @@ header nav a{
 /*Historia*/
 
 #historia{
-    height: 800px;
-    margin-top: 30px;
+    height: 900px;
+    margin-top: 150px;
+    
     display: flex;
-    align-items: center;
+    flex-direction: row;
     justify-content: center;
-    gap: 40px;
-
+    align-items: center;
+    gap: 150px;
+    
+    
+   
 }
 
 #divHistoriaImagens{
     background-color: black;
     width: 600px;
     height: 600px;
+    margin-right: 80px;
+    margin-bottom: 150px;
+}
 
+
+#divHistoriaImagens div  img {
+    width: 100%;
+}
+
+.imagens{
+    height: 10%;
 }
 
 #divHistoriaTexto{
     display: flex;
     flex-direction: column;
-    width: 600px;
-    height: 400px;
+    /*width: 600px;
+    height: 400px;*/
+    margin-left: 70px;
+    width: 850px;
+    margin-bottom: 250px;
+    gap: 150px;
+    
+    
 }
 
-#imagensHistoria{
-    height: 100%;
-    width: 100%;
-}
+
 
 #divHistoriaTexto h1{
     color: var(--color-primary);
     text-align: center;
-    font-size: 40px
+    font-size: 60px;
+    padding: 0px;
+
+    margin: 0;
+    
 }
 
 #divHistoriaTexto p{
     color: var(--color-secondary);
-    font-size: 25px;
+    font-size: 45px;
     height: 300px;
     text-align: justify;
     justify-content: center;
-    line-height: 45px;
+    line-height: 52px;
+
+    margin: 0;
 
 }
 
-#divHistoriaImagens div{
-    background-color: green;
-    width: 250px;
-    height: 160px;
-}
+
+
 
 /*Passeios*/
 
