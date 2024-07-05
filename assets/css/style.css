@@ -360,5 +360,33 @@ header nav a{
 
 /*Footer*/
 
+#contato{
+    height: 400px;
+    padding: 50px 400px;
+    font-size: 30px;
+    
+}
+
+#divContatos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-size: 25px;
+    height: 300px;
+    width: 600px;
+}
+
+#divContatos a{
+    height: 10px;
+    width: 30px;
+}
+
+
+.IMGp{
+    height: 50px;
+    width: 50px;
+}
+
 
 
