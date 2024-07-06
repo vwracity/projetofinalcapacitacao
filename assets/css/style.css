@@ -24,23 +24,22 @@ body{
 
 /*Header*/
 
-header{
+header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 20px;
+    padding: 1.5rem; 
     background-color: var(--color-white);
-
     margin: 0px;
-}
-
-#header{
+  }
+  
+  #header {
     color: var(--color-primary);
-    font-size: 90px;
-    margin-left: 30px;
-    font-weight: 300; 
+    font-size: 6.5rem; 
+    margin-left: 1.5rem; 
+    font-weight: 300;
     width: 100%;
-}
+  }
 
 header nav{
     display: flex;
@@ -51,9 +50,10 @@ header nav{
 
 header nav a{
     color: var(--color-primary);
-    font-size: 36px;
+    font-size: 3.0rem;
     font-weight: 600;
     text-decoration: none; 
+
   
 }
 .corzinha{
@@ -61,10 +61,37 @@ header nav a{
 }
 
 
+  
+  .corzinha {
+    color: var(--color-secondary);
+  }
+  
 
 
 /*home*/
-  
+ 
+@media only screen and (max-width: 1024px) {
+    #header {
+        
+        font-size: 4rem; 
+        
+    }
+
+    header nav{
+        font-size: 2.5px;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
 
 #home{
     margin: 0px;
@@ -295,11 +322,23 @@ header nav a{
     font-size: 60px;
     color: var(--color-primary);
     
-    width: 1300px;
+    width: 100%;
     text-align: center;
     line-height: 100px;
 }
-  
+
+.containerh1{
+    width: 100%;
+    
+
+}
+
+.linha{
+
+    white-space: pre-line;
+
+}
+
 .container-card {
     
     height: 600px;
