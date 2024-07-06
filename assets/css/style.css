@@ -39,6 +39,7 @@ header {
     margin-left: 1.5rem; 
     font-weight: 300;
     width: 100%;
+    
   }
 
 header nav{
@@ -69,22 +70,49 @@ header nav a{
 
 
 /*home*/
- 
 @media only screen and (max-width: 1024px) {
     #header {
-        
+        display: flex;
         font-size: 4rem; 
-        
+        justify-content: center;
+        gap: 0.75rem;
+        margin-left:0 ;
+        margin-right:0 ;
     }
 
     header nav{
-        font-size: 2.5px;
+        display: none;
+        
     }
 
 
 
 }
 
+
+@media only screen and (max-width: 1525px) {
+    #header {
+        
+        font-size: 3.65rem; 
+        
+    }
+
+    header nav a{
+        font-size: 1.65rem;
+    }
+
+
+
+}
+@media only screen and (max-width: 1250px) {
+   
+    header nav a{
+        font-size: 1.4rem;
+    }
+
+
+
+}
 
 
 
@@ -293,20 +321,49 @@ header nav a{
     line-height: 45px;
 }
 
-/*Passeios*/
-
-#passeios{
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    height: 900px;
-
+@media only screen and (max-width: 1024px) {
+    #historia{
     
+        flex-direction: column;
+
+    }
+    #divHistoriaImagens{
+        
+        flex-direction: row;
+        width: 90%;
+        margin-top: 0;
+        
+        margin-bottom: 7rem;
+        
+    }
+
+    .imgHistoria{
+       
+    }
+
+    #divHistoriaTexto{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: 5rem;
+    }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+/*Passeios*/
+
+
 
 #passeios {
     margin: 0;
@@ -318,18 +375,27 @@ header nav a{
     width: 100%; 
 }
   
-#passeios > h1 {
+#passeios > div{
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+#passeios > div > h1 {
     font-size: 60px;
     color: var(--color-primary);
     
-    width: 100%;
+    width: 90%;
     text-align: center;
     line-height: 100px;
+
+   
 }
 
 .containerh1{
     width: 100%;
-    
+
 
 }
 
@@ -426,6 +492,86 @@ header nav a{
 .cor3{
     background-color:var(--color-primary) ;
 }
+
+@media only screen and (max-width: 1024px) {
+    #passeios > div > h1 {
+        font-size: 35px;
+        color: var(--color-primary);
+        
+        width: 90%;
+        text-align: center;
+        line-height: 100px;
+    }
+
+    .container-card {
+    
+        height: 80%;
+        width: 80%;
+       
+    }
+
+    .container-a-card a {
+        width: 50%;
+        font-size: 20px;
+    }
+
+    .container-h1-card h1 {
+        
+        font-size: 15px;
+      
+    }
+
+
+}
+
+@media only screen and (max-width: 1350px) {
+    #passeios > div > h1 {
+        font-size: 45px;
+        color: var(--color-primary);
+        
+        width: 90%;
+        text-align: center;
+        line-height: 100px;
+    }
+
+
+    .container-card {
+    
+        height: 90%;
+        width: 90%;
+       
+    }
+    .container-a-card a {
+        width: 50%;
+        font-size: 23px;
+    }
+
+    .container-h1-card h1 {
+        
+        font-size: 17px;
+      
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*Tempo*/
 
 #tempo{
@@ -483,9 +629,9 @@ header nav a{
     width: 90px;
 }
 
-.swiper-button-next{
 
-}
+
+
 
 
 /*Footer*/
