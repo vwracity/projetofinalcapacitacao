@@ -212,6 +212,9 @@ header nav a{
     justify-content: center;
     gap: 40px;
 
+    margin-top: 70px;
+
+    background-color: rgb(245, 244, 244);
 }
 
 #divHistoriaImagens{
@@ -245,7 +248,8 @@ header nav a{
 #divHistoriaTexto h1{
     color: var(--color-primary);
     text-align: center;
-    font-size: 50px
+    font-size: 50px;
+    
 }
 
 #divHistoriaTexto p{
@@ -260,98 +264,115 @@ header nav a{
 /*Passeios*/
 
 #passeios{
+    margin: 0;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+
+    height: 900px;
+
     
-    height: 950px;
-    margin-top: 100px;
-    
+
 }
 
-#passeios h1{
-    font-size: 60px;
-    max-width: 1300px;
-    text-align: center;
-    line-height: 70px;
-    color: var(--color-primary);
-    
-}
-
-.card-content{
-    
+#passeios {
+    margin: 0;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    justify-content: flex-start;
-    width: 80%;
-    height: 700px;
+    height: 900px;
+    width: 100%; /* Ensure parent container has full width */
+  }
+  
+  #passeios > h1 {
+    font-size: 60px;
+    color: var(--color-primary);
     
+    width: 1300px;
+    text-align: center;
+    line-height: 100px;
+  }
+  
+  .container-card {
     background-color: var(--color-primary);
-    border-radius: 50px;   
+    height: 600px;
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    border-radius: 50px;
     box-shadow: 0px 4px 4px rgb(0, 0, 0, 0.5);
-    gap: 30px;
-
-    color: var(--color-white);
-    font-size: 20px;
-    overflow: hidden;
-}
-
-.card-content a{
-    border-radius: 70px;
-    font-size: 35px;
-    padding: 30px 45px;;
-    color: var(--color-white);
+    font-size: 18px;
+    margin-left: 170px;
+    margin-right: 100px;
+  }
+  
+  .container-img-card {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 20px 0px 20px;
+  }
+  
+  .container-h1-card {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .container-a-card {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container-img-card img {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
+  }
+  
+  .container-h1-card h1 {
+    display: flex;
+    font-size: 25px;
+    line-height: 40px;
+    margin: 15px;
+  }
+  
+  .container-a-card a {
     background-color: var(--color-secondary);
+    border-radius: 50px;
+    font-size: 30px;
+    padding: 35px 25px;
+    color: var(--color-white);
     border-style: none;
-    
     cursor: pointer;
     text-decoration: none;
     text-align: center;
-}
 
-.card-content p{
-    font-size: 30px;
-    text-align: center;
-    margin: 20px;
-    line-height: 50px;
-    margin-top: 50px;
-    
-}
-
-.divCardIMG{
-    margin: 0px 30px 0px 30px;
-}
-
-.divCardIMG img{
-    width: 400px;
-    border-radius: 30px;
-    margin-top: 30px;
-    height: 300px;
-    
-    
-    
-}
-
-.container div img{
-    height: 100%px;
+    margin-bottom: 50px;
+  }
+  
+  .swiper {
     width: 100%;
-}
-
-.swiper {
-    
-    width: 80%;
     display: flex;
     justify-content: center;
     margin: 0px;
-    
-}
+  }
 
-.swiper-wrapper{
-    display: flex;
-    justify-content: center;
-}
+  .swiper-slide{
+    
+
+  }
 
 /*Tempo*/
 
@@ -361,7 +382,7 @@ header nav a{
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+    margin: 200px 0px 0px 0px;
 }
 
 #tempo h1{
@@ -410,6 +431,9 @@ header nav a{
     width: 90px;
 }
 
+.swiper-button-next{
+
+}
 
 
 /*Footer*/
@@ -464,7 +488,7 @@ header nav a{
 }
 
 #divByron a{
-    color: black;
+    color: var(--color-white);
     text-decoration: none;
     font-size: 40px;
     font-weight: 600;
