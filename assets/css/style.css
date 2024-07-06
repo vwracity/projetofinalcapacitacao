@@ -8,7 +8,7 @@
     --color-white: #ffff;
     --color-historia:#cd863b98;
 
-
+    
 
 
     font-family: "Noto Serif Display" , Helvetica, sans-serif ;
@@ -493,6 +493,12 @@ header nav a{
     background-color:var(--color-primary) ;
 }
 
+
+
+.swiper-button-next, .swiper-button-prev {
+    color: white;
+}
+
 @media only screen and (max-width: 1024px) {
     #passeios > div > h1 {
         font-size: 35px;
@@ -513,6 +519,7 @@ header nav a{
     .container-a-card a {
         width: 50%;
         font-size: 20px;
+        padding: 20px 10px;
     }
 
     .container-h1-card h1 {
@@ -555,7 +562,42 @@ header nav a{
 
 }
 
+@media only screen and (max-width: 745px) {
+    #passeios > div > h1 {
+        font-size: 45px;
+        color: var(--color-primary);
+        
+        width: 90%;
+        text-align: center;
+        line-height: 100px;
+    }
 
+
+    .container-card {
+    
+        height: 90%;
+        width: 90%;
+       
+    }
+    .container-a-card a {
+        width: 50%;
+        font-size: 18px;
+        padding: 25px 15px;
+    }
+
+    .container-h1-card h1 {
+        
+        font-size: 13px;
+      
+    }
+    .swiper-button-next, .swiper-button-prev {
+        display: none;
+    }
+    .branco{
+        display: none;
+    }
+
+}
 
 
 
@@ -590,6 +632,12 @@ header nav a{
     padding-top: 8px;
 }
 
+#tempo img{
+    filter: invert();
+    height: 150px;
+    width: 150px;
+}
+
 #divTempo{
     background-color: var(--color-secondary);
     height: 700px;
@@ -608,7 +656,7 @@ header nav a{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    font-size: 50px;
+    font-size: 15rem;
     color: var(--color-white);
 }
 
@@ -629,8 +677,34 @@ header nav a{
     width: 90px;
 }
 
+@media only screen and (max-width: 1350px) {
+    .containertempo{
+        font-size: 11rem;
+    }
+    
+    #tempo img{
+        filter: invert();
+        height: 120px;
+        width: 120px;
+    }
+}
 
+@media only screen and (max-width: 1024px) {
+    .containertempo{
+        font-size: 7rem;
+    }
+    
+    #tempo img{
+        filter: invert();
+        height: 120px;
+        width: 120px;
+    }
+    
+    #tempo h1{
+        font-size: 35px;
+    }
 
+}
 
 
 
@@ -699,7 +773,7 @@ header nav a{
     color: var(--color-primary);
     text-align: center;
     font-size: 50px;
-    margin-top: 200px;
+    margin-top: 100px;
 }
 
 .divContatos p{
