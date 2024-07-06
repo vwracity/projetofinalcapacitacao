@@ -337,10 +337,7 @@ header nav a{
         
     }
 
-    .imgHistoria{
-       
-    }
-
+    
     #divHistoriaTexto{
         display: flex;
         flex-direction: column;
@@ -656,7 +653,7 @@ header nav a{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    font-size: 15rem;
+    font-size: 14rem;
     color: var(--color-white);
 }
 
